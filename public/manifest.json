@@ -1,0 +1,22 @@
+{
+  "shor_name": "Netflix PWA",
+  "name": "Netflix PWA Tutorial",
+  "description": "",
+  "icons": [
+    {
+      "src": "/icons/netflix_logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/netflix_logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000"
+}
