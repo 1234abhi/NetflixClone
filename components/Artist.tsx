@@ -42,10 +42,11 @@ const Artist = ({ people }: Props) => {
           <div
             key={singlePeople.id}
             className="bg-white rounded-lg items-center shadow-md overflow-hidden flex flex-col"
+            data-testid="artist-item"
           >
             <div className="flex justify-center">
               <Image
-                src={`${baseUrl}${singlePeople?.profile_path}`}
+                src={`https://image.tmdb.org/t/p/original/${singlePeople?.profile_path}`}
                 alt=""
                 width={200}
                 height={200}
